@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(236, 240, 241);
+    height: 100vh;
+    font-family: Arial;
+}
+
+.welcome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    width: 30%;
+    height: 70vh;
+    flex-direction: column;
+    background-color: rgb(88, 175, 156);
+    color: white;
+}
+
+.title-welcome{
+    font-size: 45px;
+    margin-bottom: 1vh;
+}
+
+.text-welcome{
+    width: 280px;
+    text-align: center;
+    margin-bottom: 2vh;
+    font-size: 18px;
+    line-height: 3vh;
+}
+
+.sign-in{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 60px;
+    padding-left: 60px;
+    border: 2px solid white;
+    border-radius: 20px;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+.sign-in:hover{
+    color: rgb(88, 175, 156);
+    background-color: white;
+}
+
+.create{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 50%;
+    height: 70vh;
+    background-color: rgb(255, 255, 255);
+}
+
+.title-create{
+    font-size: 40px;
+    color: rgb(89, 175, 155);
+    margin-top: 10vh;
+
+}
+
+.icons{
+    display: flex;
+    justify-content: space-around;
+    width: 25%;
+    margin-top: 2vh;
+
+}
+
+.icon{
+    width: 5vh;
+}
+
+.text-create{
+    margin-top: 2vh;
+    color: rgb(162, 160, 160);
+    font-size: 20px;
+    margin-bottom: 3vh;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    gap: 2vh;
+}
+
+.input{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 40px;
+    padding-left: 45px;
+    background-color: rgb(236, 240, 241);
+    border: none;
+    font-size: 17px;
+}
+
+#name, #email, #password{
+    background-repeat: no-repeat;
+    background-position: 10px center; /* Posição da imagem */
+    background-size: 25px 25px; /* Ajuste o tamanho da imagem */
+} 
+
+#name{
+    background-image: url(./imgs/user.png);
+}
+
+#email{
+    background-image: url(./imgs/email.png);
+}
+
+#password{
+    background-image: url(./imgs/senha.png);
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+}
+
+.sign-up{
+    background-color: rgb(88, 175, 156);
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    width: 50%;
+}

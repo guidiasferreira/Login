@@ -1,0 +1,54 @@
+
+
+@media screen and (max-width: 1200px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .welcome {
+        display: none;
+    }
+    
+    .create{
+        width: 80%; 
+        border-radius: 20px;        
+    }
+
+    .title-welcome {
+        font-size: 40px;
+    }
+
+    .text-welcome, .text-create {
+        font-size: 18px;
+    }
+
+    .sign-in {
+        padding: 10px 40px;
+        font-size: 16px;
+    }
+
+    .title-create {
+        font-size: 35px;
+    }
+
+    .input {
+        padding: 18px;
+        padding-left: 40px;
+        font-size: 17px;
+    }
+
+    .sign-up {
+        width: 70%;
+        padding: 12px;
+        font-size: 16px;
+    }
+
+    .icons {
+        justify-content: center;
+        column-gap: 2dvw; 
+    }
+
+    .icon {
+        width: 5vh;
+    }
+}
